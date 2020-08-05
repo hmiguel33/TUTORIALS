@@ -26,7 +26,7 @@ class Client:
 
 
 
-std_1= Client('miguel','hisojo',4000 )                   # creation of instances
+std_1= Client('mike','wolf',4000 )                   # creation of instances
 std_2= Client('stefan', 'van der dutch',250)            # creation of instances
 
 # print(std_1.__dict__)             # __dict__ shows the attributes of the instance std1
