@@ -1,7 +1,7 @@
 # - Regular Methods in a class, automatically take the instance as the first argument, called "self".
 # - Class Methods, automatically pass the class as the first argument, and is called  "cls"
 # - Static Methods, don't pass anything automatically. They  behave as a regular function
-#   but are included in the class, because they hace some logical connection with it.
+#   but are included in the class, because they have some logical connection with it.
 #   Static Methods, don't operate on the instance or the class
 
 
