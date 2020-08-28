@@ -1,5 +1,5 @@
 # TUTORIALS
-This tutorial aims to provide an introduction to Python, to help the reader to understand the basic memory management and the bases of Object Oriented Programing.
+This tutorial aims to provide an introduction to Python, to help developers understand concepts that make Python development unique. While Object Oriented Programing is a paradigm mostly used in C++ and Java, python offers a unique way to work with it. I explain some concepts that junior developers find difficult to understand, and provide examples of them, so you can learn while practicing.
 
 
 ## How to begin.
