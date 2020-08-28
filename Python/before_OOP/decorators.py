@@ -3,14 +3,14 @@
 # are functions that take another function as an argument adds some functionality and returns another function,
 # without modifying the source code of function that was passed-in
 
-# def decorator_func(original_func):                  # "decorator_func" function, receives a function as an argument 
-# 													# we declare that as a variable original_func
+# def decorator_func(original_func):                # "decorator_func" function, receives a function as an argument 
+# 						    # we declare that as a variable original_func
 
-# 	def wrapper_func():                                 # "wrapper_func" is a function inside "decorator_func"
+# 	def wrapper_func():                         # "wrapper_func" is a function inside "decorator_func"
 # 		print('wrapper executed this before {}'.format(original_func.__name__))
-# 		return original_func()                          # returns "original_func()" and executes it
+# 		return original_func()              # returns "original_func()" and executes it
 
-# 	return wrapper_func  							# We return the inner function "wrapper_func" without executing it 
+# 	return wrapper_func  			    # We return the inner function "wrapper_func" without executing it 
 
 
 # def display():
@@ -18,13 +18,13 @@
 
 
 # decorated_display=decorator_func(display)   # we are creating a variable "decorated_display" which is equal
-# 											# to our "decorator_func" function, and we are passing our
-# 											# "display" function as an argument so at this point 
-# 											# 			"decorated_display = wrapper_func"
+# 						# to our "decorator_func" function, and we are passing our
+# 						# "display" function as an argument so at this point 
+# 						# "decorated_display = wrapper_func"
 
 
-# decorated_display()							# as "decorated_display = wrapper_func" then, decorated_display()
-# 											# is equivalent to  "wrapper_func()"
+# decorated_display()				# as "decorated_display = wrapper_func" then, decorated_display()
+# 						# is equivalent to  "wrapper_func()"
 
 ############################################################################################
 #
@@ -73,11 +73,11 @@
 ############################################################################################
 
 # def decorator_func(original_func):                  # "decorator_func" function, receives a function as an argument 
-# 													# we declare that as a variable original_func
+# 						      # we declare that as a variable original_func
 
-# 	def wrapper_func(*args,**kwargs):                                 # "wrapper_func" is a function inside "decorator_func"
+# 	def wrapper_func(*args,**kwargs):             # "wrapper_func" is a function inside "decorator_func"
 # 		print('wrapper executed this before {}'.format(original_func.__name__))
-# 		return original_func(*args, **kwargs)                          # returns "original_func()" and executes it
+# 		return original_func(*args, **kwargs)  # returns "original_func()" and executes it
 
 # 	return wrapper_func  				
 
@@ -91,9 +91,9 @@
 # 	print('display info ran with arguments {} and {}'.format(name,age))
 
 
-# display_info('miguel',35)							# To test the new function with our decorator function
-# 													# we need to add *args and **kwargs to accept any number
-# 													# of argument and/or keywords in our wrapper function.
+# display_info('George',35)							# To test the new function with our decorator function
+# 										# we need to add *args and **kwargs to accept any number
+# 										# of argument and/or keywords in our wrapper function.
 
 
 ############################################################################################
@@ -102,9 +102,9 @@
 ############################################################################################
 
 # def decorator_func(original_func):                  # "decorator_func" function, receives a function as an argument 
-# 													# we declare that as a variable original_func
+# 						      # we declare that as a variable original_func
 
-# 	def wrapper_func(*args,**kwargs):                                 # "wrapper_func" is a function inside "decorator_func"
+# 	def wrapper_func(*args,**kwargs):             # "wrapper_func" is a function inside "decorator_func"
 # 		print('wrapper executed this before {}'.format(original_func.__name__))
 # 		return original_func(*args, **kwargs)                          # returns "original_func()" and executes it
 
@@ -129,9 +129,9 @@ def display_info(name,age):							# new function display info, receives two argu
 	print('display info ran with arguments {} and {}'.format(name,age))
 
 
-display_info('miguel',35)							# To test the new function with our decorator function
-													# we need to add *args and **kwargs to accept any number
-													# of argument and/or keywords in our wrapper function.
+display_info('George',35)							# To test the new function with our decorator function
+										# we need to add *args and **kwargs to accept any number
+										# of argument and/or keywords in our wrapper function.
 
 
 display()
